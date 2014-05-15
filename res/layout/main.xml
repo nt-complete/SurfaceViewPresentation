@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+    >
+
+    <TextView
+        android:id="@+id/main_coord_textview"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Here is some default text"
+        android:background="@android:color/white"
+        android:padding="15dp"
+        android:textColor="@android:color/black"
+        />
+
+    <com.nerdery.MapConcept.views.MapSurfaceView
+        android:id="@+id/main_customsurfaceview"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"
+        >
+        <EditText
+            android:id="@+id/main_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="4dp"
+            android:layout_toRightOf="@+id/main_update_button"
+            android:layout_toLeftOf="@+id/main_toggle"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white"
+            android:text="Update text!"
+            android:textColor="@android:color/black"
+            />
+        <Button
+            android:id="@id/main_update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            />
+
+        <ToggleButton
+            android:id="@id/main_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            />
+
+        </RelativeLayout>
+</RelativeLayout>
+
