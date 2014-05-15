@@ -1,11 +1,11 @@
-package com.nerdery.MapConcept.views;
+package com.ntcomplete.MapConcept.views;
 
 import android.content.Context;
 import android.graphics.*;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.*;
-import com.nerdery.MapConcept.R;
+import com.ntcomplete.MapConcept.R;
 
 /**
  * @author: nick

@@ -15,7 +15,7 @@
         android:textColor="@android:color/black"
         />
 
-    <com.nerdery.MapConcept.views.MapSurfaceView
+    <com.ntcomplete.MapConcept.views.MapSurfaceView
         android:id="@+id/main_customsurfaceview"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"

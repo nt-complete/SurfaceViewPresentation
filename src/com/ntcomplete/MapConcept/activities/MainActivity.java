@@ -1,4 +1,4 @@
-package com.nerdery.MapConcept.activities;
+package com.ntcomplete.MapConcept.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.ToggleButton;
-import com.nerdery.MapConcept.R;
-import com.nerdery.MapConcept.views.MapSurfaceView;
+import com.ntcomplete.MapConcept.R;
+import com.ntcomplete.MapConcept.views.MapSurfaceView;
 
 public class MainActivity extends Activity {
 
